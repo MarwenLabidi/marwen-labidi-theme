@@ -2,6 +2,13 @@
     "name": "marwen-labidi-theme",
     "displayName": "Marwen-Labidi-Theme",
     "description": "my favorite theme",
+    "publisher": "MarwenLabidi",
+    "keyword": ["marwen", "labidi", "marwenlabidi"],
+    "repositery": {
+        "type": "git",
+        "url": "https://github.com/marwenez/marwen-labidi-theme.git"
+
+    },
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.65.0"
@@ -10,12 +17,10 @@
         "Themes"
     ],
     "contributes": {
-        "themes": [
-            {
-                "label": "Marwen-Labidi-Theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Marwen-Labidi-Theme-color-theme.json"
-            }
-        ]
+        "themes": [{
+            "label": "Marwen-Labidi-Theme",
+            "uiTheme": "vs-dark",
+            "path": "./themes/Marwen-Labidi-Theme-color-theme.json"
+        }]
     }
 }

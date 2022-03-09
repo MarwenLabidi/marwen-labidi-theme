@@ -1,7 +1,5 @@
 {
 	"name": "Marwen-Labidi-Theme",
-	"publisher": " marwenlabidi",
-	"keyword": ["marwen", "labidi", "marwenlabidi"],
 	"type": "dark",
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
